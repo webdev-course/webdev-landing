@@ -1,0 +1,16 @@
+# robots.txt для лендинга "Web-старт"
+# Замените ВАШ-ДОМЕН на реальный адрес сайта
+
+User-agent: *
+Allow: /
+
+# Юридические страницы — не индексировать
+Disallow: /assets/pages/
+
+# Служебные директории
+Disallow: /assets/img/
+Disallow: /assets/css/
+Disallow: /assets/js/
+
+# Карта сайта
+Sitemap: https://ВАШ-ДОМЕН/sitemap.xml
